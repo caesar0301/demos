@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <!-- kerberos configuration for guardian server -->
+    <property>
+        <name>guardian.kerberos.kadmin.name</name>
+        <value>admin</value>
+    </property>
+    <!-- kerberos configuration for guardian server -->
+    <property>
+        <name>guardian.kerberos.kadmin.password</name>
+        <value>123</value>
+    </property>
+    <!-- kerberos configuration for guardian server -->
+    <property>
+        <name>guardian.kerberos.configuration</name>
+        <value>/etc/krb5.conf</value>
+    </property>
+
+
+    <property>
+        <name>guardian.server.hostname</name>
+        <value>127.0.0.1</value>
+    </property>
+    <property>
+        <name>guardian.server.port</name>
+        <value>38080</value>
+    </property>
+    <property>
+        <name>guardian.connection.username</name>
+        <value>admin</value>
+    </property>
+    <property>
+        <name>guardian.connection.password</name>
+        <value>123</value>
+    </property>
+    <property>
+        <name>guardian.connection.client.impl</name>
+        <value>REST</value>
+    </property>
+</configuration>
