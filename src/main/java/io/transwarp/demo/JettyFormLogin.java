@@ -1,6 +1,6 @@
 package io.transwarp.demo;
 
-import io.transwarp.guardian.client.jetty.GuardianLoginService;
+import io.transwarp.guardian.plugins.jetty.GuardianLoginService;
 import org.eclipse.jetty.security.*;
 import org.eclipse.jetty.security.authentication.FormAuthenticator;
 import org.eclipse.jetty.server.Handler;

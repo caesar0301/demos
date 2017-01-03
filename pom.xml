@@ -53,6 +53,16 @@
             <version>${guardian.version}</version>
         </dependency>
         <dependency>
+            <groupId>io.transwarp.guardian</groupId>
+            <artifactId>jetty-tools</artifactId>
+            <version>${guardian.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.transwarp.guardian</groupId>
+            <artifactId>guardian-common</artifactId>
+            <version>${guardian.version}</version>
+        </dependency>
+        <dependency>
             <groupId>io.dropwizard.metrics</groupId>
             <artifactId>metrics-core</artifactId>
             <version>${metrics.version}</version>

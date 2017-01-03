@@ -20,11 +20,11 @@
 
     <property>
         <name>guardian.server.hostname</name>
-        <value>127.0.0.1</value>
+        <value>172.16.1.190</value>
     </property>
     <property>
         <name>guardian.server.port</name>
-        <value>38080</value>
+        <value>8080</value>
     </property>
     <property>
         <name>guardian.connection.username</name>
