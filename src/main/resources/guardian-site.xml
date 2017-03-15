@@ -27,6 +27,10 @@
         <value>8080</value>
     </property>
     <property>
+        <name>guardian.server.address</name>
+        <value>172.16.1.190:8080</value>
+    </property>
+    <property>
         <name>guardian.connection.username</name>
         <value>admin</value>
     </property>

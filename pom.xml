@@ -15,7 +15,6 @@
         <scala.binary.version>2.10</scala.binary.version>
         <json4s.version>3.2.8</json4s.version>
         <jetty.version>8.1.19.v20160209</jetty.version>
-        <guardian.version>0.1</guardian.version>
         <metrics.version>3.1.2</metrics.version>
         <libthrift.version>0.9.3</libthrift.version>
         <thrift.tools.version>0.1.11</thrift.tools.version>
@@ -50,17 +49,22 @@
         <dependency>
             <groupId>io.transwarp.guardian</groupId>
             <artifactId>guardian-client</artifactId>
-            <version>${guardian.version}</version>
+            <version>0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>io.transwarp.guardian</groupId>
             <artifactId>jetty-tools</artifactId>
-            <version>${guardian.version}</version>
+            <version>0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>io.transwarp.guardian</groupId>
             <artifactId>guardian-common</artifactId>
-            <version>${guardian.version}</version>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>io.transwarp.guardian</groupId>
+            <artifactId>inceptor-plugin</artifactId>
+            <version>0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>io.dropwizard.metrics</groupId>
