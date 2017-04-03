@@ -1,4 +1,4 @@
-package io.transwarp.demo;
+package io.transwarp.demo.guardian;
 
 import io.transwarp.guardian.common.exception.GuardianClientException;
 import io.transwarp.guardian.plugins.inceptor.GuardianSchedulerConfProvider;

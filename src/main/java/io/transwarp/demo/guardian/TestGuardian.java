@@ -1,4 +1,4 @@
-package io.transwarp.demo;
+package io.transwarp.demo.guardian;
 
 import io.transwarp.guardian.client.GuardianAdmin;
 import io.transwarp.guardian.client.GuardianAdminFactory;

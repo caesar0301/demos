@@ -1,4 +1,4 @@
-package io.transwarp.demo;
+package io.transwarp.demo.jetty;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletHandler;

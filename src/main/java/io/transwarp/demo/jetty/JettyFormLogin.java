@@ -1,4 +1,4 @@
-package io.transwarp.demo;
+package io.transwarp.demo.jetty;
 
 import io.transwarp.guardian.plugins.jetty.GuardianLoginService;
 import org.eclipse.jetty.security.*;
