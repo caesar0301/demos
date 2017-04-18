@@ -16,16 +16,6 @@
         <name>guardian.kerberos.configuration</name>
         <value>/etc/krb5.conf</value>
     </property>
-
-
-    <property>
-        <name>guardian.server.hostname</name>
-        <value>172.16.1.190</value>
-    </property>
-    <property>
-        <name>guardian.server.port</name>
-        <value>8080</value>
-    </property>
     <property>
         <name>guardian.server.address</name>
         <value>172.16.1.190:8080</value>
